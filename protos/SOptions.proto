@@ -1,0 +1,12 @@
+syntax="proto3";
+package lrl;
+
+message SOptions {
+    float uncertainty_ = 1;
+    float slack_margin_ = 2;
+    bool ignore_clk_ = 3;
+    bool debug_report_ = 4;
+    bool wire_bud_mode_rc_ = 5;
+    string spef_file_ = 6;
+    string dot_file_ = 7;
+}
